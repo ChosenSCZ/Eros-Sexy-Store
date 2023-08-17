@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+  }
+  
+  /* Estilos para encabezado y navegación */
+  header {
+    background-color: #c60024; /* Color primario */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #3d3d3d; /* Tercer color */
+    padding: 10px;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  /* Estilos para secciones */
+  section {
+    padding: 40px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    background-color: #3d3d3d; /* Tercer color */
+    padding: 20px;
+  }
+  
+  /* Media queries para dispositivos móviles y tabletas */
+  @media (max-width: 768px) {
+    header {
+      font-size: 24px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    nav li {
+      margin: 5px 0;
+    }
+  
+    section {
+      padding: 20px;
+    }
+  
+    footer {
+      padding: 10px;
+    }
+  }
