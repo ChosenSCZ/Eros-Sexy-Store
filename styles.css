@@ -13,8 +13,19 @@ body {
     color: #ffffff;
     text-align: center;
     padding: 20px;
+    position: relative; /* Permite posicionar elementos hijos */
   }
   
+  header img {
+    position: absolute;
+    top: 20px; /* Espacio desde el borde superior */
+    left: 20px; /* Espacio desde el borde izquierdo */
+    max-width: 100px; /* Tamaño máximo del logo */
+    height: auto;
+  }
+  
+  /* Otros estilos para el encabezado, navegación, secciones, etc. */
+  /* Define tus estilos aquí */
   nav ul {
     list-style: none;
     display: flex;
