@@ -17,13 +17,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000; /* Fondo negro */
+    background-color: #c60024; /* Fondo negro */
     color: #ffffff; /* Texto blanco */
   }
   
   /* Estilos para encabezado y navegación */
   header {
-    background-color: #c60024; /* Color primario */
+    background-color: #000000; /* Color primario */
     color: #ffffff;
     text-align: center;
     padding: 20px;
@@ -34,6 +34,7 @@ body {
     position: absolute;
     top: 20px; /* Espacio desde el borde superior */
     left: 20px; /* Espacio desde el borde izquierdo */
+    max-width: 200px; /* Tamaño máximo del logo */
     height: auto;
   }
 
