@@ -5,6 +5,10 @@
     src: url("fonts/Sexy Shout Free Font.otf") format("opentype");
   }
 
+  @font-face {
+    font-family: "Sexy Beachy";
+    src: url("fonts/Sexy Beachy.otf") format("opentype");
+  }
 
 
 
@@ -46,8 +50,8 @@ body {
   header h2 {
     font-size: 24px; /* Tamaño de fuente menor */
     margin-top: 10px; /* Espacio desde el h1 */
-    font-family: "Sexy Shout Free Font", Arial, sans-serif; /* Tipo de fuente */
-    font-weight: bold; /* Grosor de fuente */
+    font-family: "Sexy Beachy", Arial, sans-serif; /* Tipo de fuente */
+    font-weight: normal; /* Grosor de fuente */
     text-transform: capitalize; /* Transforma la primera letra en mayúscula */
     letter-spacing: 1px; /* Espaciado entre letras */
   }
