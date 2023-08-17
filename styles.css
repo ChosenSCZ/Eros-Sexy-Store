@@ -1,3 +1,13 @@
+
+/* Fuente personalizada */
+@font-face {
+    font-family: "Sexy Shout Free Font";
+    src: url("fonts/Sexy Shout Free Font.otf") format("opentype");
+  }
+
+
+
+
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
@@ -20,10 +30,29 @@ body {
     position: absolute;
     top: 20px; /* Espacio desde el borde superior */
     left: 20px; /* Espacio desde el borde izquierdo */
-    max-width: 100px; /* Tamaño máximo del logo */
     height: auto;
   }
-  
+
+  /* Estilo para el título h1 en el encabezado */
+  header h1 {
+    font-size: 36px; /* Tamaño de fuente */
+    margin-top: 10px; /* Espacio desde el logo */
+    font-family: "Sexy Shout Free Font", Arial, sans-serif; /* Tipo de fuente */
+    font-weight: bold; /* Grosor de fuente */
+    text-transform: uppercase; /* Transformación de texto en mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+  }
+
+  header h2 {
+    font-size: 24px; /* Tamaño de fuente menor */
+    margin-top: 10px; /* Espacio desde el h1 */
+    font-family: "Sexy Shout Free Font", Arial, sans-serif; /* Tipo de fuente */
+    font-weight: bold; /* Grosor de fuente */
+    text-transform: capitalize; /* Transforma la primera letra en mayúscula */
+    letter-spacing: 1px; /* Espaciado entre letras */
+  }
+
+
   /* Otros estilos para el encabezado, navegación, secciones, etc. */
   /* Define tus estilos aquí */
   nav ul {
